@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de Hamza Belfouel, étudiant en administration des affaires, option marketing. Découvrez son parcours, ses compétences et ses projets.">
+    <meta name="keywords" content="Hamza Belfouel, portfolio, marketing, administration des affaires, marketing digital, création de contenu, SEO, communication, stratégie marketing">
+    <meta name="author" content="Hamza Belfouel">
+
+    <title>Hamza Belfouel | Portfolio Professionnel</title>
+
+    <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap)" rel="stylesheet">
+
+    <link rel="stylesheet" href="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">HB</a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero / Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Bonjour, je suis</p>
+                <h1 class="hero-name">Hamza Belfouel</h1>
+                <h2 class="hero-title">Étudiant en administration des affaires, option marketing</h2>
+                <p class="hero-description">
+                    Le marketing m'intéresse avant tout parce qu'il se trouve à l'intersection de la psychologie,
+                    de la créativité et de la stratégie. J'aime comprendre pourquoi certaines idées captent
+                    notre attention, pourquoi certaines marques marquent les esprits et comment les entreprises
+                    influencent les comportements à travers leur communication.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cv" class="btn btn-primary">
+                        <i class="fas fa-file-alt"></i> Voir mon CV
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <i class="fas fa-briefcase"></i> Voir mes projets
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Me contacter
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <span>Photo professionnelle</span>
+                    </div>
+                </div>
+                <div class="hero-image-decoration"></div>
+            </div>
+        </div>
+
+        <a href="#apropos" class="scroll-indicator">
+            <span>Défiler</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="section apropos">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <p class="section-subtitle">Mon parcours, mes intérêts et mes ambitions dans le domaine du marketing</p>
+
+            <div class="apropos-grid">
+                <div class="apropos-content">
+                    <div class="apropos-card">
+                        <div class="apropos-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Qui suis-je ?</h3>
+                        <p>
+                            Je suis un étudiant motivé et curieux, actuellement inscrit au baccalauréat en
+                            administration des affaires, option marketing. Ce qui me passionne dans le marketing,
+                            c'est sa capacité à relier la créativité, la stratégie et la compréhension du
+                            comportement humain.
+                        </p>
+                        <p>
+                            J'aime analyser les stratégies de marque, comprendre les mécanismes de persuasion
+                            et transformer des idées en contenus accessibles, pertinents et engageants.
+                            Je cherche constamment à développer mes compétences à travers mes projets,
+                            mes expériences professionnelles et mon apprentissage continu.
+                        </p>
+                    </div>
+
+                    <div class="apropos-card">
+                        <div class="apropos-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Parcours académique</h3>
+                        <p>
+                            <strong>2022-2026 :</strong> Baccalauréat en administration des affaires, option marketing<br>
+                            <strong>Diplomation prévue :</strong> 2026
+                        </p>
+                        <p>
+                            Mon parcours académique me permet de développer une compréhension des stratégies
+                            marketing, de la communication, de la création de contenu, du comportement du
+                            consommateur et de l'analyse des tendances du marché.
+                        </p>
+                    </div>
+
+                    <div class="apropos-card">
+                        <div class="apropos-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Objectifs professionnels</h3>
+                        <p>
+                            À court terme, je souhaite continuer à développer une expérience concrète en marketing,
+                            notamment en création de contenu, communication numérique et stratégie de diffusion.
+                        </p>
+                        <p>
+                            À moyen terme, mon objectif est d'évoluer dans un environnement professionnel stimulant
+                            où je pourrai contribuer à des projets de marketing, de communication et de développement
+                            de marque, tout en combinant créativité, analyse et stratégie.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="apropos-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-number">2026</div>
+                        <div class="highlight-label">Diplomation prévue</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">2025</div>
+                        <div class="highlight-label">Stage marketing</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">2021</div>
+                        <div class="highlight-label">Début expérience administrative</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">FR / EN</div>
+                        <div class="highlight-label">Langues</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section cv">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <p class="section-subtitle">Un aperçu de ma formation, de mes expériences et de mes compétences</p>
+
+            <div class="cv-download">
+                <a href="assets/cv.pdf" class="btn btn-primary btn-lg" download>
+                    <i class="fas fa-download"></i> Télécharger mon CV (PDF)
+                </a>
+            </div>
+
+            <div class="cv-container">
+                <!-- Formation -->
+                <div class="cv-section">
+                    <h3 class="cv-section-title">
+                        <i class="fas fa-graduation-cap"></i> Formation
+                    </h3>
+                    <div class="cv-items">
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <h4>Baccalauréat en administration des affaires</h4>
+                                <span class="cv-date">2022 - 2026</span>
+                            </div>
+                            <p class="cv-institution">Option marketing</p>
+                            <p class="cv-description">
+                                Formation axée sur le marketing, la communication, la stratégie,
+                                la création de contenu et l'analyse du comportement du consommateur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience -->
+                <div class="cv-section">
+                    <h3 class="cv-section-title">
+                        <i class="fas fa-briefcase"></i> Expérience professionnelle
+                    </h3>
+                    <div class="cv-items">
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <h4>Stagiaire en marketing</h4>
+                                <span class="cv-date">2025</span>
+                            </div>
+                            <p class="cv-institution">Pâtisserie Noisette & Chocolat</p>
+                            <ul class="cv-list">
+                                <li>Création de contenu pour les réseaux sociaux, notamment Instagram et Facebook</li>
+                                <li>Développement de stratégies de contenu liées à des événements saisonniers</li>
+                                <li>Planification d'un calendrier de diffusion</li>
+                                <li>Participation à l'organisation d'événements promotionnels</li>
+                                <li>Recherche et négociation avec des fournisseurs</li>
+                                <li>Optimisation du référencement (SEO)</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <h4>Agent administratif</h4>
+                                <span class="cv-date">2021 - aujourd'hui</span>
+                            </div>
+                            <p class="cv-institution">Centre intégré de santé et de services sociaux de la Montérégie-Centre</p>
+                            <ul class="cv-list">
+                                <li>Accueil et accompagnement des usagers avec une communication claire et professionnelle</li>
+                                <li>Gestion et mise à jour des dossiers administratifs</li>
+                                <li>Numérisation, classement et archivage de documents</li>
+                                <li>Rédaction et mise en forme de documents administratifs</li>
+                                <li>Coordination de l'information entre différents intervenants</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outils et atouts -->
+                <div class="cv-section">
+                    <h3 class="cv-section-title">
+                        <i class="fas fa-tools"></i> Outils et atouts
+                    </h3>
+                    <div class="cv-certifications">
+                        <div class="certification-item">
+                            <div class="certification-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h4>Microsoft Office</h4>
+                                <p>Word, Excel, PowerPoint</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-item">
+                            <div class="certification-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h4>Canva</h4>
+                                <p>Création visuelle et contenu numérique</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-item">
+                            <div class="certification-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h4>Meta</h4>
+                                <p>Gestion de contenu et diffusion sur réseaux sociaux</p>
+                            </div>
+                        </div>
+
+                        <div class="certification-item">
+                            <div class="certification-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="certification-info">
+                                <h4>CapCut</h4>
+                                <p>Montage vidéo et contenu dynamique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="section competences">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <p class="section-subtitle">Mes compétences en marketing, outils numériques et aptitudes professionnelles</p>
+
+            <div class="competences-grid">
+                <div class="competence-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Marketing</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Création de contenu</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Marketing digital</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SEO</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 72%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Stratégie de communication</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 78%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Analyse des tendances</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competence-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Outils</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Office</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Canva</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Meta</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CapCut</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 76%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competence-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Compétences professionnelles</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Communication</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Gestion de projet</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 78%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Organisation d'événements</span>
+                                <span class="skill-level">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 74%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Organisation</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Adaptabilité</span>
+                                <span class="skill-level">Avancé</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="soft-skills">
+                <h3>Langues</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-item">
+                        <i class="fas fa-language"></i>
+                        <span>Français</span>
+                    </div>
+                    <div class="soft-skill-item">
+                        <i class="fas fa-language"></i>
+                        <span>Anglais</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Quelques projets et réalisations liés au marketing, au contenu et à la communication</p>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="contenu">Contenu</button>
+                <button class="filter-btn" data-filter="seo">SEO</button>
+                <button class="filter-btn" data-filter="reseaux">Réseaux sociaux</button>
+                <button class="filter-btn" data-filter="evenementiel">Événementiel</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="marketing contenu reseaux">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="1">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Marketing digital</span>
+                        <h3>Stratégie de contenu pour événements saisonniers</h3>
+                        <p>Création et planification de contenu promotionnel pour des événements comme la Fête des Pères et la Saint-Jean-Baptiste.</p>
+                        <div class="portfolio-tags">
+                            <span>Canva</span>
+                            <span>Meta</span>
+                            <span>Instagram</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="contenu reseaux">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="2">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Réseaux sociaux</span>
+                        <h3>Calendrier de diffusion</h3>
+                        <p>Élaboration d'un calendrier de publication structuré afin d'assurer une communication cohérente et régulière.</p>
+                        <div class="portfolio-tags">
+                            <span>Planification</span>
+                            <span>Contenu</span>
+                            <span>Organisation</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="seo marketing">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="3">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">SEO</span>
+                        <h3>Optimisation du référencement</h3>
+                        <p>Contribution à l'amélioration de la visibilité numérique d'une entreprise locale grâce à des actions SEO ciblées.</p>
+                        <div class="portfolio-tags">
+                            <span>SEO</span>
+                            <span>Visibilité</span>
+                            <span>Analyse</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="evenementiel marketing">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="4">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Événementiel</span>
+                        <h3>Organisation d'événements promotionnels</h3>
+                        <p>Participation à la mise en place d'actions promotionnelles et coordination avec différents fournisseurs.</p>
+                        <div class="portfolio-tags">
+                            <span>Événementiel</span>
+                            <span>Coordination</span>
+                            <span>Fournisseurs</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="marketing contenu">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="5">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Analyse marketing</span>
+                        <h3>Analyse de tendances de contenu</h3>
+                        <p>Observation et analyse des tendances afin d'adapter le contenu marketing à différents publics.</p>
+                        <div class="portfolio-tags">
+                            <span>Veille</span>
+                            <span>Analyse</span>
+                            <span>Contenu</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="contenu marketing">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-btn" data-project="6">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Création de contenu</span>
+                        <h3>Communication adaptée à différents publics</h3>
+                        <p>Élaboration de contenus et de messages adaptés à divers contextes de communication et objectifs promotionnels.</p>
+                        <div class="portfolio-tags">
+                            <span>Communication</span>
+                            <span>Rédaction</span>
+                            <span>Stratégie</span>
+                        </div>
+                        <span class="portfolio-date">2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expérience -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Mon parcours</h2>
+            <p class="section-subtitle">Une chronologie de mon évolution académique et professionnelle</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3>Stage en marketing</h3>
+                        <p class="timeline-location">Pâtisserie Noisette & Chocolat</p>
+                        <p>Développement de contenu, planification de publications, SEO et participation à l'organisation d'événements promotionnels.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - aujourd'hui</span>
+                        <h3>Agent administratif</h3>
+                        <p class="timeline-location">Centre intégré de santé et de services sociaux de la Montérégie-Centre</p>
+                        <p>Expérience solide en communication, gestion administrative, organisation documentaire et coordination de l'information.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2026</span>
+                        <h3>Baccalauréat en administration des affaires</h3>
+                        <p class="timeline-location">Option marketing</p>
+                        <p>Développement de compétences en marketing, communication, stratégie, création de contenu et analyse du comportement du consommateur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Me contacter</h2>
+            <p class="section-subtitle">Pour une opportunité, un stage ou une prise de contact professionnelle</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Courriel</h3>
+                            <a href="mailto:hamzabelfouel123@icloud.com">hamzabelfouel123@icloud.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <a href="tel:+14388384737">438-838-4737</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="#" target="_blank">Lien LinkedIn à ajouter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required placeholder="Votre nom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Courriel</label>
+                        <input type="email" id="email" name="email" required placeholder="votre@courriel.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fas fa-paper-plane"></i> Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#accueil" class="footer-logo">Hamza Belfouel</a>
+                    <p>Portfolio professionnel en marketing, communication et création de contenu.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#cv">CV</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Liens professionnels</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:hamzabelfouel123@icloud.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hamza Belfouel. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal pour les projets -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
